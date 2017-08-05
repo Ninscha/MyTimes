@@ -1,6 +1,6 @@
+/* Universal Styles */
 
-
-ul {
+ul{
   margin: 0;
 }
 
@@ -54,17 +54,19 @@ nav a {
 
 /* Main */
 
-#maincontainer{
-	top: 240px;
-    position: relative;
+div {
 	border: solid black 1px;
-	display: flex;
 }
 
-.column{
-    border: solid black 1px;
+.maincontainer {
+	padding-top: 116px;
+  display: flex;
+}
+
+.column {
 	display: flex;
 	flex-direction: column;
+	margin-right: 32px;
 }
 
 .column.large {
@@ -79,9 +81,43 @@ nav a {
   width: 240px;
 }
 
-.textbox {
-	border: solid black 1px;
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px; 
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
+
+.lead-story .image-content {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+.fall-cancelled.image-content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+}
+
+.hipster-camera.image-content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+}
+
+.catCEO.image-content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
+
+img.cookie {
+  height: 240px;
+}
+
+
 
 
 
